@@ -11,6 +11,7 @@ class App extends Component {
       { name: 'Valentin', age: 25 },
       { name: 'Samuel', age: 26 },
       { name: 'Finja', age: 25 }
+      
     ]
   }
 
@@ -59,7 +60,7 @@ class App extends Component {
       padding: '8px',
       cursor: 'pointer'
     };
-    
+
     return (
       <div className="App">
         <h1>Hi Ich bin eine React App</h1>
