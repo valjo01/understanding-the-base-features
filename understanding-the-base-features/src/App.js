@@ -77,7 +77,7 @@ class App extends Component {
       //   <Person />
       // );
 
-    // dynamische Listen
+    // dynamische Listen/ Arrays
       persons = (
         <div>
           {this.state.persons.map(person => {
@@ -163,7 +163,7 @@ class App extends Component {
         
           {persons}
 
-          {/* dynamische Listen/ Arrays anzeigen */}
+          
       </div>
     );
   }
